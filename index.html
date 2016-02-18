@@ -4,83 +4,7 @@
     <meta charset="UTF-8">
     <title>Demo 跳转</title>
 </head>
-<style type="text/css">
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    .clearfix:after {
-        content: '.';
-        display: block;
-        clear: both;
-        height: 0;
-        visibility: hidden;
-    }
-    .clearfix {
-        *zoom: 1;
-    }
-    .tip {
-        min-width: 280px;
-        max-width: 500px;
-        margin: 50px auto;
-        height: 200px;
-    }
-    .tip p {
-        float: left;
-        line-height: 50px;
-    }
-    .animation-box {
-        width: 240px;
-        height: 120px;
-        margin: 0 auto;
-    }
-    .line {
-        width: 8px;
-        margin-right: 6px;
-        height: 50px;
-        float: left;
-        background-color: rgb(41, 165, 123);
-        animation: lineMove 1.6s infinite ease-in-out;
-    }
-    /*
-    ******  keyframes
-    */
-    @keyframes lineMove {
-        10% {
-            transform: scaleY(.1);
-        }
-        40%,70% {
-            transform: scaleY(.7);
-        }
-        to {
-            transform: scaleY(1);
-        }
-    }
-    .line8 {
-        -webkit-animation-delay: -0s;
-    }
-    .line7 {
-        -webkit-animation-delay: -0.1s;
-    }
-    .line6 {
-        -webkit-animation-delay: -0.2s;
-    }
-    .line5 {
-        -webkit-animation-delay: -0.3s;
-    }
-    .line4 {
-        -webkit-animation-delay: -0.4s;
-    }
-    .line3 {
-        -webkit-animation-delay: -0.5s;
-    }
-    .line2 {
-        -webkit-animation-delay: -0.6s;
-    }
-    .line1 {
-        -webkit-animation-delay: -0.7s;
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="css/index.css">
 <body>
     <div class="tip">
         <p>正在跳转......</p>
@@ -103,7 +27,7 @@
         });
         
         window && window.setInterval(function () {
-            this.location = this.location.hostname + 'pure' + '.html';
+            this.location = 'http://' + this.location.hostname + '/demo-pages/' + 'pure.html';
         }, 2000);
     }
 </script>

@@ -1,0 +1,224 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+    .clearfix:after {
+        content: '.';
+        display: block;
+        clear: both;
+        height: 0;
+        visibility: hidden;
+    }
+    .clearfix {
+        *zoom: 1;
+    }
+    .tip {
+        min-width: 280px;
+        max-width: 500px;
+        margin: 50px auto;
+        height: 200px;
+    }
+    .tip p {
+        float: left;
+        line-height: 50px;
+    }
+    .animation-box {
+        width: 240px;
+        height: 120px;
+        margin: 0 auto;
+    }
+    .line {
+        width: 8px;
+        margin-right: 6px;
+        height: 50px;
+        float: left;
+        background-color: rgb(41, 165, 123);
+        animation: lineMove 1.6s infinite ease-in-out;
+    }
+    /*
+    ******  keyframes
+    */
+    @-o-keyframes lineMove {
+        10% {
+            transform: scaleY(.1);
+        }
+        40%,70% {
+            transform: scaleY(.7);
+        }
+        to {
+            transform: scaleY(1);
+        }
+    }
+    @-ms-keyframes lineMove {
+        10% {
+            transform: scaleY(.1);
+        }
+        40%,70% {
+            transform: scaleY(.7);
+        }
+        to {
+            transform: scaleY(1);
+        }
+    }
+    @-moz-keyframes lineMove {
+        10% {
+            transform: scaleY(.1);
+        }
+        40%,70% {
+            transform: scaleY(.7);
+        }
+        to {
+            transform: scaleY(1);
+        }
+    }
+    @-webkit-keyframes lineMove {
+        10% {
+            transform: scaleY(.1);
+        }
+        40%,70% {
+            transform: scaleY(.7);
+        }
+        to {
+            transform: scaleY(1);
+        }
+    }
+    @keyframes lineMove {
+        10% {
+            transform: scaleY(.1);
+        }
+        40%,70% {
+            transform: scaleY(.7);
+        }
+        to {
+            transform: scaleY(1);
+        }
+    }
+
+    
+
+    .line8 {
+        -webkit-animation-delay: -0s;
+    }
+    .line7 {
+        -webkit-animation-delay: -0.1s;
+    }
+    .line6 {
+        -webkit-animation-delay: -0.2s;
+    }
+    .line5 {
+        -webkit-animation-delay: -0.3s;
+    }
+    .line4 {
+        -webkit-animation-delay: -0.4s;
+    }
+    .line3 {
+        -webkit-animation-delay: -0.5s;
+    }
+    .line2 {
+        -webkit-animation-delay: -0.6s;
+    }
+    .line1 {
+        -webkit-animation-delay: -0.7s;
+    }
+    
+    .line8 {
+        -moz-animation-delay: -0s;
+    }
+    .line7 {
+        -moz-animation-delay: -0.1s;
+    }
+    .line6 {
+        -moz-animation-delay: -0.2s;
+    }
+    .line5 {
+        -moz-animation-delay: -0.3s;
+    }
+    .line4 {
+        -moz-animation-delay: -0.4s;
+    }
+    .line3 {
+        -moz-animation-delay: -0.5s;
+    }
+    .line2 {
+        -moz-animation-delay: -0.6s;
+    }
+    .line1 {
+        -moz-animation-delay: -0.7s;
+    }
+
+
+    .line8 {
+        -ms-animation-delay: -0s;
+    }
+    .line7 {
+        -ms-animation-delay: -0.1s;
+    }
+    .line6 {
+        -ms-animation-delay: -0.2s;
+    }
+    .line5 {
+        -ms-animation-delay: -0.3s;
+    }
+    .line4 {
+        -ms-animation-delay: -0.4s;
+    }
+    .line3 {
+        -ms-animation-delay: -0.5s;
+    }
+    .line2 {
+        -ms-animation-delay: -0.6s;
+    }
+    .line1 {
+        -ms-animation-delay: -0.7s;
+    }
+    
+
+    .line8 {
+        -o-animation-delay: -0s;
+    }
+    .line7 {
+        -o-animation-delay: -0.1s;
+    }
+    .line6 {
+        -o-animation-delay: -0.2s;
+    }
+    .line5 {
+        -o-animation-delay: -0.3s;
+    }
+    .line4 {
+        -o-animation-delay: -0.4s;
+    }
+    .line3 {
+        -o-animation-delay: -0.5s;
+    }
+    .line2 {
+        -o-animation-delay: -0.6s;
+    }
+    .line1 {
+        -o-animation-delay: -0.7s;
+    }
+
+.line8 {
+        animation-delay: -0s;
+    }
+    .line7 {
+        animation-delay: -0.1s;
+    }
+    .line6 {
+        animation-delay: -0.2s;
+    }
+    .line5 {
+        animation-delay: -0.3s;
+    }
+    .line4 {
+        animation-delay: -0.4s;
+    }
+    .line3 {
+        animation-delay: -0.5s;
+    }
+    .line2 {
+        animation-delay: -0.6s;
+    }
+    .line1 {
+        animation-delay: -0.7s;
+    }
