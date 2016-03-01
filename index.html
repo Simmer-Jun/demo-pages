@@ -6,7 +6,7 @@
 </head>
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <body>
-    <div class="tip">
+    <div class="main">
         <p>正在跳转......</p>
         <div class="animation-box clearfix">
             <div class="line line1"></div>
@@ -18,6 +18,8 @@
             <div class="line line7"></div>
             <div class="line line8"></div>
         </div>
+        <div class="people"></div>
+        <div class="ground"></div>
     </div>
 <script type="text/javascript" defer="defer">
     window.onload = function( ) {
@@ -26,9 +28,9 @@
             return Math.random() > 0.5;
         });
         
-        window && window.setInterval(function () {
-            this.location = 'http://' + this.location.hostname + '/demo-pages/' + 'pure.html';
-        }, 2000);
+         window && window.setInterval(function () {
+           this.location = 'http://' + this.location.hostname + '/demo-pages/' + 'pure.html';
+        }, 3500);
     }
 </script>
 </body>
